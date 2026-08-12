@@ -6,7 +6,7 @@ This project goes above and beyond a standard static frontend by incorporating a
 
 ---
 
-## ✨ Features & Evaluation Highlights
+##  Features & Evaluation Highlights
 
 Based on the evaluation criteria, this project delivers:
 
@@ -30,7 +30,7 @@ Based on the evaluation criteria, this project delivers:
 
 ---
 
-## 🚀 Setup & Run Instructions
+## Setup & Run Instructions
 
 ### Prerequisites
 - Node.js (v18+)
@@ -57,7 +57,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser. The page is
 
 ---
 
-## ✉️ Testing the Contact Form & Backend
+##  Testing the Contact Form & Backend
 
 The contact form at the bottom of the page is fully wired up to a backend API and database. Here is how to test it:
 
@@ -78,7 +78,7 @@ Click on the **ContactSubmission** model to see a spreadsheet view of the exact 
 
 ---
 
-## 🛠️ Tech Choices
+##  Tech Choices
 
 - **Next.js 16 (App Router)**: Provides server-side rendering, powerful routing, and server-side API routes out-of-the-box. Used for maximum performance and modern React 19 features.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development and ensuring a highly responsive, pixel-perfect design.
@@ -89,7 +89,7 @@ Click on the **ContactSubmission** model to see a spreadsheet view of the exact 
 
 ---
 
-## ⚖️ Assumptions & Trade-offs
+##  Assumptions & Trade-offs
 1. **SQLite Database**: I chose SQLite for the backend because it requires zero external setup or cloud dependencies, making it perfect for an evaluation assignment. For a production app, this would easily swap to PostgreSQL.
 2. **Honeypot over reCAPTCHA**: Instead of implementing complex third-party captchas (which degrade UX), I implemented a hidden "honeypot" field in the contact form to deter automated bots without frustrating legitimate users.
 3. **Single Page Layout**: Designed as a single page application (SPA) with smooth-scrolling anchor links (`#products`, `#pricing`, `#contact`) rather than multiple routes. This creates a more cohesive narrative for a product landing page.
